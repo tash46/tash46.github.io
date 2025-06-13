@@ -1,0 +1,13 @@
+---
+---
+
+/* 1. Load the Minimal theme’s default CSS */
+@import "{{ site.theme }}";
+
+/* 2. Pull in Dancing Script from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+/* 3. Apply it globally */
+html, body, h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: 'Dancing Script', cursive !important;
+}
