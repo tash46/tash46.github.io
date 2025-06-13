@@ -1,21 +1,18 @@
-/* ─── LAYOUT & SIDEBAR ───────────────────────────────────────────────────────── */
+/* ─── TWO-COLUMN LAYOUT ───────────────────────────────────────────────────────── */
 .layout {
   display: flex;
+  margin-top: 1.5rem;        /* push the entire layout down beneath your nav */
 }
 
-/* Sidebar: fixed width on the left */
 .sidebar {
-  flex: 0 0 200px;
-  position: sticky;
-  top: 4rem;    /* so it sits just below your nav/header */
+  flex: 0 0 200px;           /* fixed 200px width */
+  position: sticky;          /* stays in view as you scroll */
+  top: 1rem;                 /* offset from the top of the viewport */
   padding: 1rem;
   background: #f9f9f9;
   border-right: 1px solid #e0e0e0;
-  font-size: 0.9rem;
-  line-height: 1.4;
 }
 
-/* Main content takes remaining space */
 .main-content {
   flex: 1;
   padding: 1rem 2rem;
