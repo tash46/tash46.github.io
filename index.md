@@ -5,115 +5,71 @@ title: Home
 <nav>
   <a href="#about">About</a> •
   <a href="#experience">Experience</a> •
-  <a href="#projects">Projects</a> •
   <a href="#publications">Publications</a> •
   <a href="#resume">Résumé</a> •
   <a href="#contact">Contact</a>
 </nav>
 
-## About {#about}
+<div class="layout">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+  
+  ### Languages
+  - Korean (native)  
+  - English (fluent)
+  
+  ### Skills
+  - PyTorch  
+  - OpenCV  
+  - YOLOv7  
+  - MONAI  
+  - JAX  
+  - Docker  
+  </aside>
 
-I’m **Yeon Kyoung Choi**, a Computer Vision Engineer specializing in high-resolution segmentation and domain adaptation for AOI and medical imaging.  
+  <!-- Main scrolling content -->
+  <div class="main-content">
 
-_Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
+  ## About {#about}
 
----
+  I’m **Yeon Kyoung Choi**, a Computer Vision Engineer specializing in high-resolution segmentation and domain adaptation for AOI and medical imaging.
 
-## Experience {#experience}
+  _Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
 
-- **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+  ---
 
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
-
-- **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
-
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
-
-  - **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
-
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+  ## Experience {#experience}
 
   - **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+    – Built dynamic patching segmentation pipelines for 3D AOI machines  
+    – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+    – **Download my portfolios**: [Google Drive PPTs](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID)
 
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+  - **CTO & CMO**, SliceMind (2021 – Present)  
+    – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+    – Partnered with MD Anderson Cancer Center for product-market fit studies  
+    – **Download my portfolios**: [Google Drive PPTs](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID)
 
-  - **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+  ---
 
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+  ## Publications {#publications}
 
-  - **Lead AI Engineer**, PARMI (2022 – Present)  
-  – Built dynamic patching segmentation pipelines for 3D AOI machines  
-  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+  1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+  2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
 
-- **CTO & CMO**, SliceMind (2021 – Present)  
-  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
-  – Partnered with MD Anderson Cancer Center for product-market fit studies  
----
+  ---
 
-## Projects {#projects}
+  ## Résumé {#resume}
 
-<div class="projects-grid">
-  <a href="https://github.com/your-username/project-one" target="_blank">
-    <img src="https://drive.google.com/uc?export=view&id=GOOGLE_DRIVE_FILE_ID_1"
-         alt="Project One thumbnail" />
-    <p>Cross-Condition Segmentation</p>
-  </a>
-  <a href="https://github.com/your-username/project-two" target="_blank">
-    <img src="https://drive.google.com/uc?export=view&id=GOOGLE_DRIVE_FILE_ID_2"
-         alt="Project Two thumbnail" />
-    <p>Dynamic Patching Framework</p>
-  </a>
-  <!-- add more projects here -->
+  [Download my résumé (PDF)](/resume.pdf)
+
+  ---
+
+  ## Contact {#contact}
+
+  ✉️ <a href="mailto:your.email@example.com">your.email@example.com</a>  
+  🔗 <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a>  
+  🐙 <a href="https://github.com/your-username" target="_blank">GitHub</a>
+
+  </div>
 </div>
-
----
-
-## Publications {#publications}
-
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
-2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
-<!-- add more here -->
-
----
-
-## Résumé {#resume}
-
-[Download my résumé (PDF)](/resume.pdf)
-
----
-
-## Contact {#contact}
-
-✉️ <a href="mailto:your.email@example.com">your.email@example.com</a>  
-🔗 <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a>  
-🐙 <a href="https://github.com/your-username" target="_blank">GitHub</a>
