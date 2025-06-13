@@ -29,6 +29,45 @@ _Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
   – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
   – Partnered with MD Anderson Cancer Center for product-market fit studies  
 
+- **Lead AI Engineer**, PARMI (2022 – Present)  
+  – Built dynamic patching segmentation pipelines for 3D AOI machines  
+  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+
+- **CTO & CMO**, SliceMind (2021 – Present)  
+  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+
+  - **Lead AI Engineer**, PARMI (2022 – Present)  
+  – Built dynamic patching segmentation pipelines for 3D AOI machines  
+  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+
+- **CTO & CMO**, SliceMind (2021 – Present)  
+  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+
+  - **Lead AI Engineer**, PARMI (2022 – Present)  
+  – Built dynamic patching segmentation pipelines for 3D AOI machines  
+  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+
+- **CTO & CMO**, SliceMind (2021 – Present)  
+  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+
+  - **Lead AI Engineer**, PARMI (2022 – Present)  
+  – Built dynamic patching segmentation pipelines for 3D AOI machines  
+  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+
+- **CTO & CMO**, SliceMind (2021 – Present)  
+  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+  – Partnered with MD Anderson Cancer Center for product-market fit studies  
+
+  - **Lead AI Engineer**, PARMI (2022 – Present)  
+  – Built dynamic patching segmentation pipelines for 3D AOI machines  
+  – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
+
+- **CTO & CMO**, SliceMind (2021 – Present)  
+  – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
+  – Partnered with MD Anderson Cancer Center for product-market fit studies  
 ---
 
 ## Projects {#projects}
@@ -51,6 +90,16 @@ _Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
 
 ## Publications {#publications}
 
+1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
+1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
+1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
+1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
+1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
+2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
 1. **“XPU-Net: Xray-Attention Pyramid Pooling U-Net”**, *ICLR 2025* — mIoU 0.483 on unseen weather.  
 2. **“Dynamic Adaptive Patching for PCB Segmentation”**, *Journal of Manufacturing Systems 2024*.  
 <!-- add more here -->
