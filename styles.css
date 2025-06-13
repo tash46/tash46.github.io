@@ -48,19 +48,24 @@ nav a:hover {
 }
 
 /* Combined content + sidebar */
-/* Combined content + sidebar */
-.content-with-sidebar {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin-top: 2rem;
+.content-with.sidebar {
+  width: 250px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .sidebar {
-  flex: 0 0 200px;
+  width: 250px;
   padding: 1rem;
-  background: #fafafa;
-  border-right: 1px solid #e0e0e0;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .content-sections {
