@@ -12,7 +12,7 @@ title: Home
 
 <div class="layout">
 
-<aside class="sidebar">
+<aside class="sidebar" markdown="1">
 
 ### Languages
 - Korean (native)
@@ -28,7 +28,7 @@ title: Home
 
 </aside>
 
-<div class="main-content">
+<div class="main-content" markdown="1">
 
 ## About {#about}
 
@@ -40,14 +40,15 @@ _Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
 
 ## Experience {#experience}
 
-- **Lead AI Engineer**, PARMI (2022 – Present)  
+- **Lead AI Engineer**, PARMI (2022 – Present)  
   – Built dynamic patching segmentation pipelines for 3D AOI machines  
   – Improved defect-detection F1 score by 12% using confidence-aware domain adaptation  
-  – **Download my portfolios**: [Google Drive PPTs](https://drive.google.com/drive/folders/18_OMFF6Ix7UcY0JbXuAzFgT_M8cIXYdy?usp=sharing)
+  – **Download my portfolios**: [Google Drive PPTs](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID)
 
-- **CTO & CMO**, SliceMind (2021 – Present)  
+- **CTO & CMO**, SliceMind (2021 – Present)  
   – Co-founded medical AI startup; launched MetaFusion platform integrating CT/MRI/PET data  
   – Partnered with MD Anderson Cancer Center for product-market fit studies  
+  – **Download my portfolios**: [Google Drive PPTs](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_ID)
 
 ---
 
