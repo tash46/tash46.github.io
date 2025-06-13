@@ -1,49 +1,52 @@
-/* ─── TWO-COLUMN LAYOUT ───────────────────────────────────────────────────────── */
-.layout {
-  display: flex;
-  margin-top: 1.5rem;        /* push the entire layout down beneath your nav */
+---
+---
+
+/* 1. Load the Minimal theme’s CSS */
+@import "{{ site.theme }}";
+
+/* 2. Pull in Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* 3. Apply Roboto site-wide */
+html, body, h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: 'Roboto', sans-serif !important;
 }
 
-.sidebar {
-  flex: 0 0 200px;           /* fixed 200px width */
-  position: sticky;          /* stays in view as you scroll */
-  top: 1rem;                 /* offset from the top of the viewport */
-  padding: 1rem;
-  background: #f9f9f9;
-  border-right: 1px solid #e0e0e0;
-}
-
-.main-content {
-  flex: 1;
-  padding: 1rem 2rem;
-}
-
-/* ─── HEADER SIDEBAR ─────────────────────────────────────────────────────────── */
+/* ─── HEADER OVERRIDE ───────────────────────────────────────────────────────── */
 .site-header .wrapper {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
-/* Push the header-sidebar below the title, left of nav */
-.header-sidebar {
-  margin-left: 2rem;
-  margin-top: 0.25rem;
+.header-info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-details {
+  margin-top: 0.5rem;
   font-size: 0.9rem;
   line-height: 1.4;
 }
 
-.header-sidebar h3 {
-  margin-bottom: 0.25rem;
+.header-details h3 {
+  margin: 0.5rem 0 0.25rem;
   font-weight: 600;
 }
 
-.header-sidebar ul {
+.header-details ul {
   list-style: none;
   padding: 0;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.5rem;
 }
 
-.header-sidebar li {
+.header-details li {
   margin-left: 0;
   margin-bottom: 0.25rem;
+}
+
+/* Right side navigation offset */
+.header-nav {
+  margin-top: 0.25rem;
 }

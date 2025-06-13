@@ -4,40 +4,35 @@
 <header class="site-header">
   <div class="wrapper">
 
-    <!-- Site title and optional subtitle/description -->
-    <h1 class="site-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </h1>
-    {% if site.subtitle %}
-      <p class="site-description">{{ site.subtitle }}</p>
-    {% endif %}
+    <!-- Left side: Site title + infobox -->
+    <div class="header-info-block">
 
-    <!-- Languages & Skills under the title -->
-    <div class="header-sidebar">
-      <h3>Languages</h3>
-      <ul>
-        <li>Korean (native)</li>
-        <li>English (fluent)</li>
-      </ul>
-      <h3>Skills</h3>
-      <ul>
-        <li>PyTorch</li>
-        <li>OpenCV</li>
-        <li>YOLOv7</li>
-        <li>MONAI</li>
-        <li>JAX</li>
-        <li>Docker</li>
-      </ul>
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+
+      <div class="header-details">
+        <h3>Languages</h3>
+        <ul>
+          <li>Korean (native)</li>
+          <li>English (fluent)</li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+          <li>PyTorch</li>
+          <li>OpenCV</li>
+          <li>YOLOv7</li>
+          <li>MONAI</li>
+          <li>JAX</li>
+          <li>Docker</li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Existing nav (if you still want it here) -->
-    {% if site.nav %}
-      <nav>
-        {% for item in site.nav %}
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endfor %}
-      </nav>
-    {% endif %}
+    <!-- Right side: Navigation -->
+    <div class="header-nav">
+      {% include nav.html %}
+    </div>
 
   </div>
 </header>

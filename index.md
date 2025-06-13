@@ -10,25 +10,6 @@ title: Home
   <a href="#contact">Contact</a>
 </nav>
 
-<div class="layout">
-
-<aside class="sidebar" markdown="1">
-
-### Languages
-- Korean (native)
-- English (fluent)
-
-### Skills
-- PyTorch
-- OpenCV
-- YOLOv7
-- MONAI
-- JAX
-- Docker
-
-</aside>
-
-<div class="main-content" markdown="1">
 
 ## About {#about}
 
@@ -71,6 +52,3 @@ _Key skills:_ PyTorch • OpenCV • YOLOv7 • MONAI • JAX • Docker
 🔗 [LinkedIn](https://linkedin.com/in/yourname)  
 🐙 [GitHub](https://github.com/your-username)
 
-</div>
-
-</div>
