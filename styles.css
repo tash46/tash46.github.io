@@ -48,12 +48,11 @@ nav a:hover {
 }
 
 /* Combined content + sidebar */
-.content-with.sidebar {
-  flex: 0 0 200px;
-  padding: 1rem;
-  background: #fafafa;
-  border-right: 1px solid #e0e0e0;
-  font-size: 0.85rem;
+.content-with-sidebar {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
 }
 
 .sidebar {
@@ -61,7 +60,8 @@ nav a:hover {
   padding: 1rem;
   background: #fafafa;
   border-right: 1px solid #e0e0e0;
-  font-size: 0.85rem; 
+  font-size: 0.85rem;
+  text-align: left; /* ensures language/skills align left */
 }
 
 .profile-pic {
@@ -78,6 +78,7 @@ nav a:hover {
   margin-bottom: 1rem;
   text-align: center;
 }
+
 .icon-links a {
   margin: 0 0.5rem;
   color: #0366d6;
