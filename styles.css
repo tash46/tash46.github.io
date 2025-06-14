@@ -136,3 +136,20 @@ a:hover {
   color: #666;
   font-style: italic;
 }
+
+.experience-entry {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.award-entry {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.award-entry em {
+  display: block;
+  margin-top: 0.5rem;
+}
