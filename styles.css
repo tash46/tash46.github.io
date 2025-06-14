@@ -107,3 +107,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Testimonials */
+#testimonials p {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+.testimonial-author {
+  display: block;
+  margin-top: 0.25rem;
+  color: #666;
+  font-style: italic;
+}
