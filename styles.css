@@ -96,7 +96,9 @@ nav a:hover {
 /* Section styling */
 main section {
   margin-bottom: 2rem;
+  text-align: justify;
 }
+
 main h2 {
   font-size: 1.4rem;
   border-bottom: 2px solid #eee;
