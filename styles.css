@@ -164,3 +164,22 @@ section {
 .text-justify {
   text-align: justify;
 }
+
+.resume-download {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.resume-download .btn {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.resume-download .btn:hover {
+  background-color: #555;
+}
